@@ -15,7 +15,6 @@ public class HighestPrime {
             for (int x = 3; x <= limit; x++) {
                 for (int y = 0; y < primes.size(); y++) {
                     do
-                        x % y;
                     if (x % y != 0) {
                         primes.add(x);
                     }
