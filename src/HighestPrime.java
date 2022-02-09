@@ -14,11 +14,12 @@ public class HighestPrime {
 
             for (int x = 3; x <= limit; x++) {
                 for (int y = 0; y < primes.size(); y++) {
-                    int remainder = x % primes.get(y);
-                    if (remainder != 0) {
+                    do
+                        x % y;
+                    if (x % y != 0) {
                         primes.add(x);
-
                     }
+                    while(x % y == 0);
                 }
 
             }
